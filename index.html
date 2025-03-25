@@ -3,19 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Chronarium's Clues: A Logic Adventure</title>
+    <title>The Chronarium Logic Course</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .landing-container {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .course-title {
+            font-size: 2.5rem;
+            color: #4fc3f7;
+            margin-bottom: 30px;
+        }
+        
+        .module-cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        
+        .module-card {
+            background-color: #1a1f2e;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 350px;
+            box-shadow: 0 8px 32px rgba(0, 100, 255, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .module-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(0, 100, 255, 0.2);
+        }
+        
+        .card-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .card-content {
+            padding: 20px;
+        }
+        
+        .card-title {
+            font-size: 1.4rem;
+            color: #4fc3f7;
+            margin-bottom: 10px;
+        }
+        
+        .card-description {
+            margin-bottom: 20px;
+            color: #e0e0e0;
+            font-size: 0.95rem;
+        }
+    </style>
 </head>
 <body>
-    <div id="app">
-        <!-- Page content will be rendered here by JavaScript -->
-    </div>
-    <script src="app.js"></script>
-    
-    <!-- Module navigation -->
-    <div class="module-nav">
-        <a href="index.html" class="module-link active">Module 1: Deductive & Inductive Reasoning</a>
-        <a href="module2.html" class="module-link">Module 2: Validity, Soundness & Fallacies</a>
+    <div class="landing-container">
+        <h1 class="course-title">The Chronarium Logic Course</h1>
+        <p>Welcome to the interactive course on logical reasoning. Choose a module to begin your journey through the principles of logic.</p>
+        
+        <div class="module-cards">
+            <div class="module-card">
+                <img src="imgs/1_1.jpeg" alt="Module 1" class="card-image">
+                <div class="card-content">
+                    <h2 class="card-title">Module 1: Deductive & Inductive Reasoning</h2>
+                    <p class="card-description">Learn the fundamental differences between deductive and inductive reasoning through an exciting adventure with Cadet Elara.</p>
+                    <a href="module1.html" class="btn">Start Module 1</a>
+                </div>
+            </div>
+            
+            <div class="module-card">
+                <img src="imgs/2_1.jpeg" alt="Module 2" class="card-image">
+                <div class="card-content">
+                    <h2 class="card-title">Module 2: Validity, Soundness & Fallacies</h2>
+                    <p class="card-description">Explore the concepts of validity, soundness, and common logical fallacies in the trial of Xylar.</p>
+                    <a href="module2.html" class="btn">Start Module 2</a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
