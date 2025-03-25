@@ -77,89 +77,109 @@ const courseContent = {
         instructions: "Choose the best answer for each question.",
         questions: [
             {
-                text: "Elara states: \"If all temporal distortions originate from Kepler-186f, then the Proxima Centauri b glitch must be a consequence.\" What type of reasoning is this?",
+                text: "When Elara concluded that the Proxima flicker *must* be traceable to the Kepler device because of Rule Alpha and the flicker's classification, what type of reasoning was she primarily using?",
+                options: [
+                    "a) Inductive Reasoning (generalizing from examples)",
+                    "b) Deductive Reasoning (applying a general rule to a specific case)",
+                    "c) Abductive Reasoning (choosing the best explanation)",
+                    "d) Conductive Reasoning (weighing pros and cons)"
+                ],
+                correctAnswer: 1 // b) Deductive Reasoning
+            },
+            {
+                text: "According to Logi, what is the key feature of a valid *deductive* argument?",
+                options: [
+                    "a) It is based on many specific observations.",
+                    "b) It offers the simplest explanation for the facts.",
+                    "c) Its conclusion is highly probable but not guaranteed.",
+                    "d) If its premises are true, its conclusion *must* be true."
+                ],
+                correctAnswer: 3 // d) If its premises are true, its conclusion *must* be true.
+            },
+            {
+                text: "Elara's initial thought \"based on these five specific instances [the pre-cascade signatures]... the problem isn't just the device suddenly malfunctioning, but a growing instability\" is an example of:",
                 options: [
                     "a) Inductive Reasoning",
                     "b) Deductive Reasoning",
                     "c) Abductive Reasoning",
                     "d) Conductive Reasoning"
                 ],
-                correctAnswer: 1 // b) Deductive Reasoning (0-indexed)
+                correctAnswer: 0 // a) Inductive Reasoning
             },
             {
-                text: "The analyst observes five temporal fluctuations and concludes that temporal instability is increasing. What type of reasoning is this?",
+                text: "How did finding Chronium-X residue from the *earliest* fluctuation affect Elara's hypothesis about a growing instability?",
                 options: [
-                    "a) Deductive Reasoning",
-                    "b) Abductive Reasoning",
-                    "c) Inductive Reasoning",
+                    "a) It proved her hypothesis with 100% certainty (deduction).",
+                    "b) It weakened her hypothesis by introducing a new element.",
+                    "c) It increased the probability/strength of her hypothesis (induction).",
+                    "d) It proved Rule Alpha was correct all along."
+                ],
+                correctAnswer: 2 // c) It increased the probability/strength of her hypothesis (induction).
+            },
+            {
+                text: "When Elara compared the 'inherent Chronium-X instability' idea versus the 'Zargonian mishap' idea to explain the early fluctuations, what type of reasoning was she using to decide which was more likely?",
+                options: [
+                    "a) Inductive Reasoning",
+                    "b) Deductive Reasoning",
+                    "c) Abductive Reasoning",
                     "d) Conductive Reasoning"
                 ],
-                correctAnswer: 2 // c) Inductive Reasoning
+                correctAnswer: 2 // c) Abductive Reasoning
             },
             {
-                text: "Deductive reasoning guarantees the conclusion is true if:",
+                text: "Why did Elara lean towards the 'Zargonian mishap' as the *best* explanation for the early fluctuations?",
                 options: [
-                    "a) The conclusion is popular.",
-                    "b) The premises are popular.",
-                    "c) The premises are true.",
-                    "d) The conclusion is about the future."
+                    "a) Because Rule Alpha demanded it.",
+                    "b) Because it was the only possibility left.",
+                    "c) Because it explained the specific timing of the events better than the alternative.",
+                    "d) Because Logi told her it was correct."
                 ],
-                correctAnswer: 2 // c) The premises are true.
+                correctAnswer: 2 // c) Because it explained the specific timing of the events better than the alternative.
             },
             {
-                text: "Inductive reasoning guarantees the conclusion is true if:",
+                text: "When Elara decided to recommend \"prioritizing the Zargonian investigation *while* setting up remote monitoring around Kepler,\" what reasoning process was she using, according to Logi?",
                 options: [
-                    "a) The premises are numerous.",
-                    "b) Never - the conclusion is only ever probable.",
-                    "c) The premises are about science.",
-                    "d) The conclusion is exciting."
+                    "a) Inductive Reasoning (based on past successful investigations)",
+                    "b) Deductive Reasoning (following a strict protocol)",
+                    "c) Abductive Reasoning (finding the best single action)",
+                    "d) Conductive Reasoning (balancing multiple independent factors/reasons)"
                 ],
-                correctAnswer: 1 // b) Never - the conclusion is only ever probable.
+                correctAnswer: 3 // d) Conductive Reasoning
             },
             {
-                text: "If further investigation finds Chronium-X at *every* glitch site, this would:",
+                text: "Conductive reasoning, as shown when Elara made her final recommendation, primarily involves:",
                 options: [
-                    "a) Prove the Kepler-186f device is the *definite* cause, beyond any doubt.",
-                    "b) Make the conclusion that the Kepler-186f device is the cause *more probable*.",
-                    "c) Make the conclusion that the Kepler-186f device is the cause *less probable*.",
-                    "d) Have no impact on the conclusion."
+                    "a) Applying a universal rule to a specific case.",
+                    "b) Generalizing from a limited number of observations.",
+                    "c) Weighing various pros and cons to make a practical judgment.",
+                    "d) Finding the single most likely cause for an event."
                 ],
-                correctAnswer: 1 // b) Make the conclusion that the Kepler-186f device is the cause *more probable*.
+                correctAnswer: 2 // c) Weighing various pros and cons to make a practical judgment.
             },
             {
-                text: "Which statement best describes the difference between deductive and inductive reasoning?",
-                options: [
-                    "a) Deductive reasoning is used by scientists, while inductive reasoning is used by detectives.",
-                    "b) Deductive reasoning moves from general principles to specific conclusions, while inductive reasoning moves from specific observations to general conclusions.",
-                    "c) Deductive reasoning is always correct, while inductive reasoning is always incorrect.",
-                    "d) Deductive reasoning is about the past, while inductive reasoning is about the future."
-                ],
-                correctAnswer: 1 // b) Deductive reasoning moves from general principles to specific conclusions...
-            },
-            {
-                text: "All squares are rectangles. All Rectangles are 4 sided shapes. Therefore, all squares are 4 sided shapes. What type of Reasoning is this?",
+                text: "Based on the story, which type of reasoning aims for a conclusion that is *necessarily* true if the premises are true?",
                 options: [
                     "a) Inductive",
                     "b) Deductive",
                     "c) Abductive",
-                    "d) Reductive"
+                    "d) Conductive"
                 ],
                 correctAnswer: 1 // b) Deductive
             },
             {
-                text: "Every cat I have ever met, hisses. Therefore all cats hiss. What type of reasoning is this?",
+                text: "Which reasoning type involves comparing alternative hypotheses to see which one best accounts for the available evidence?",
                 options: [
                     "a) Inductive",
                     "b) Deductive",
                     "c) Abductive",
-                    "d) Reductive"
+                    "d) Conductive"
                 ],
-                correctAnswer: 0 // a) Inductive
+                correctAnswer: 2 // c) Abductive
             }
         ],
         feedbackText: {
-            allCorrect: "Excellent work, Cadet Elara! You've mastered the basics of deductive and inductive reasoning. Proceed to Module 2!",
-            someIncorrect: "Good effort, Cadet! Review the story and try again. Pay close attention to the differences between deductive and inductive arguments."
+            allCorrect: "Flawless reasoning, Cadet! You've mastered the fundamental types of logical inference. Your ability to distinguish deduction, induction, abduction, and conduction is impressive. Prepare for Module 2!",
+            someIncorrect: "A good attempt, Cadet, but some distinctions need sharpening. Review the sections in the story where Logi explains each reasoning type and how you applied them to the Paradox Cascade. Clear thinking is crucial for temporal navigation!"
         },
         buttonText: "Submit Answers"
     }
