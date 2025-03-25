@@ -77,84 +77,104 @@ const courseContent = {
         instructions: "Choose the best answer for each question.",
         questions: [
             {
-                text: "A *valid* argument is one where:",
+                text: "Logi and Elara discussed that a *valid* argument is one where:",
                 options: [
-                    "a) The premises are true.",
-                    "b) The conclusion is true.",
-                    "c) If the premises are true, the conclusion must be true.",
-                    "d) The argument is convincing."
+                    "a) All the premises are definitely true.",
+                    "b) The conclusion feels intuitively correct.",
+                    "c) If the premises are true, the conclusion *must* logically follow.",
+                    "d) It successfully persuades the audience."
                 ],
-                correctAnswer: 2 // c) If the premises are true, the conclusion must be true.
+                correctAnswer: 2 // c) If the premises are true, the conclusion *must* logically follow.
             },
             {
-                text: "A *sound* argument is one that is:",
+                text: "What two conditions must be met for an argument to be *sound*?",
                 options: [
-                    "a) Valid and popular.",
-                    "b) Valid and has a true conclusion.",
-                    "c) Valid and has true premises.",
-                    "d) Presented by a good speaker."
+                    "a) It must be interesting and have a true conclusion.",
+                    "b) It must be valid and have all true premises.",
+                    "c) It must avoid fallacies and be presented clearly.",
+                    "d) It must use deductive reasoning and have at least one true premise."
                 ],
-                correctAnswer: 2 // c) Valid and has true premises.
+                correctAnswer: 1 // b) It must be valid and have all true premises.
             },
             {
-                text: "\"If Xylar transported Chronium-X, his ship would have a unique energy signature. His ship has that signature. Therefore, he transported it.\" This argument is:",
+                text: "Consider the prosecutor's *second* argument: \"If Xylar were innocent, his logs would be clean. His logs are not clean. Therefore, Xylar is not innocent.\" How did Elara evaluate this argument?",
                 options: [
-                    "a) Valid and sound.",
-                    "b) Valid but potentially unsound.",
-                    "c) Invalid and unsound.",
-                    "d) Invalid but potentially sound."
+                    "a) Invalid and unsound.",
+                    "b) Invalid but potentially sound.",
+                    "c) Valid but potentially unsound (because the first premise might be false).",
+                    "d) Valid and definitely sound."
                 ],
-                correctAnswer: 1 // b) Valid but potentially unsound.
+                correctAnswer: 2 // c) Valid but potentially unsound (because the first premise might be false).
             },
             {
-                text: "\"The prosecutor hates Xylar, therefore everything he says is false.\" This is an example of:",
+                text: "The prosecutor's *first* argument was: \"If Xylar transported Chronium-X, his ship would have a unique signature. His ship has that signature. Therefore, he transported it.\" The defense attorney (and Elara) identified this structure (\"If P then Q. Q. Therefore P.\") as:",
                 options: [
-                    "a) Affirming the consequent.",
-                    "b) Denying the antecedent.",
-                    "c) Ad hominem.",
-                    "d) Straw man."
+                    "a) A sound argument.",
+                    "b) A valid argument called Modus Tollens.",
+                    "c) An invalid argument committing the fallacy of Affirming the Consequent.",
+                    "d) An inductive argument based on sensor readings."
                 ],
-                correctAnswer: 2 // c) Ad hominem.
+                correctAnswer: 2 // c) An invalid argument committing the fallacy of Affirming the Consequent.
             },
             {
-                text: "\"If it rains, the ground is wet. The ground is wet. Therefore, it rained.\" This is an example of:",
+                text: "When the defense attorney shouted, \"The prosecutor is a known rival of my client! He despises Xylar! You cannot trust a word this biased individual says!\", what fallacy was being committed?",
                 options: [
-                    "a) Affirming the consequent.",
-                    "b) Denying the antecedent.",
-                    "c) Ad hominem.",
-                    "d) Appeal to authority."
+                    "a) False Dilemma",
+                    "b) Affirming the Consequent",
+                    "c) Ad Hominem",
+                    "d) Appeal to Authority"
                 ],
-                correctAnswer: 0 // a) Affirming the consequent.
+                correctAnswer: 2 // c) Ad Hominem
             },
             {
-                text: "\"Either Xylar transported the Chronium-X, or the Galactic Patrol planted the evidence as they are the only two options. They would never plant evidence. Therefore Xylar did it.\" This is an example of:",
+                text: "The defense attorney later argued: \"Either Xylar did it, or the notoriously clumsy Zargonian Freight Guild accidentally jettisoned the Chronium-X... It's far more likely they did it! Therefore, Xylar is innocent!\" This presents which potential fallacy?",
+                options: [
+                    "a) Ad Hominem (attacking the Zargonians)",
+                    "b) False Dilemma (presenting only two options when others might exist)",
+                    "c) Denying the Antecedent",
+                    "d) Straw Man (misrepresenting the prosecution's case)"
+                ],
+                correctAnswer: 1 // b) False Dilemma
+            },
+            {
+                text: "Why did Elara specifically question the *soundness* (not the validity) of the prosecutor's second argument about the ship's logs?",
+                options: [
+                    "a) Because the argument structure (Modus Tollens) was invalid.",
+                    "b) Because she believed the conclusion (\"Xylar is not innocent\") was false.",
+                    "c) Because she doubted the absolute truth of the premise \"If innocent, then clean logs.\"",
+                    "d) Because the prosecutor used an Ad Hominem fallacy earlier."
+                ],
+                correctAnswer: 2 // c) Because she doubted the absolute truth of the premise "If innocent, then clean logs."
+            },
+            {
+                text: "If a deductive argument is *valid*, but you discover its conclusion is actually *false*, what else *must* be true about the argument?",
+                options: [
+                    "a) The argument must have actually been inductive.",
+                    "b) At least one of the premises must be false.",
+                    "c) The argument structure must have been invalid after all.",
+                    "d) Logic simply failed in this case."
+                ],
+                correctAnswer: 1 // b) At least one of the premises must be false.
+            },
+            {
+                text: "What is the primary difference between evaluating an argument for *validity* versus evaluating it for *soundness*?",
+                options: [
+                    "a) Validity applies to induction, soundness applies to deduction.",
+                    "b) Validity checks the truth of the premises, soundness checks the conclusion.",
+                    "c) Validity checks the logical structure, soundness checks BOTH structure AND the truth of the premises.",
+                    "d) Validity is objective, while soundness is subjective."
+                ],
+                correctAnswer: 2 // c) Validity checks the logical structure, soundness checks BOTH structure AND the truth of the premises.
+            },
+            {
+                text: "The defense attorney's example, \"If it rains, the ground is wet. The ground is wet. Therefore, it rained,\" was used to illustrate which specific logical error?",
                 options: [
                     "a) Ad Hominem",
-                    "b) False Dillema",
-                    "c) Straw Man",
-                    "d) Appeal to Authority."
+                    "b) False Dilemma",
+                    "c) Modus Tollens",
+                    "d) Affirming the Consequent"
                 ],
-                correctAnswer: 1 // b) False Dillema
-            },
-            {
-                text: "Which of the following is the BEST way to determine if a deductive argument is sound?",
-                options: [
-                    "a) Check if the conclusion is popular.",
-                    "b) Check if the argument is valid and if the premises are true.",
-                    "c) Check if the person making the argument is trustworthy.",
-                    "d) Check if the argument uses big words."
-                ],
-                correctAnswer: 1 // b) Check if the argument is valid and if the premises are true.
-            },
-            {
-                text: "A Valid argument, with a true conclusion, but one false premise, is:",
-                options: [
-                    "a) Sound",
-                    "b) Unsound",
-                    "c) Both",
-                    "d) Neither"
-                ],
-                correctAnswer: 1 // b) Unsound
+                correctAnswer: 3 // d) Affirming the Consequent
             }
         ],
         feedbackText: {
