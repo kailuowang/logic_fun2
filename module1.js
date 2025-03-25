@@ -2,13 +2,13 @@
 const courseContent = {
     landingPage: {
         title: "The Chronarium's Clues: A Logic Adventure",
-        image: "imgs/1_1.jpeg",
+        image: "imgs/1.1.jpeg",
         text: "Welcome, Cadet! You've been selected for a special training mission at the Chronarium, the galaxy's foremost institute for temporal studies. Your first task? Master the art of logical reasoning. The fate of timelines might just depend on it!",
         buttonText: "Begin Training"
     },
     storyPage1: {
         title: "The Case of the Glitched Glitch - Part 1",
-        image: "imgs/1_2.jpeg",
+        image: "imgs/1.2.jpeg",
         story: `
             <p>Elara tapped her stylus against the shimmering Chronarium display, her brow furrowed. "Logi, look at this! The Kepler-186f timeline... it's unstable. Sensor logs show brief, contradictory flickers – building styles shifting mid-construction, historical figures momentarily appearing in anachronistic clothing, data logs swapping entries... It's like small paradoxes are cascading!"</p>
             
@@ -20,7 +20,7 @@ const courseContent = {
     },
     storyPage2: {
         title: "The Case of the Glitched Glitch - Part 2",
-        image: "imgs/1_2.jpeg",
+        image: "imgs/1.3.jpeg",
         story: `
             <p>She traced the logical connection on her screen with her finger. "Okay, so <em>if</em> Premise 1 is true (that <em>all</em> these distortions trace back to the device) <em>and</em> Premise 2 is true (that the Proxima flicker <em>is</em> one of these distortions)... then the conclusion logically <em>must</em> follow. Therefore," she concluded, tapping Proxima b on the display, "<strong>this Proxima flicker <em>must</em> be traceable back to the Kepler-186f device.</strong> It has to be an echo or consequence. That's the necessary outcome if Rule Alpha and our data about the flicker are both correct."</p>
             
@@ -32,7 +32,7 @@ const courseContent = {
     },
     storyPage3: {
         title: "The Case of the Glitched Glitch - Part 3",
-        image: "imgs/1_2.jpeg",
+        image: "imgs/1.4.jpeg",
         story: `
             <p>Logi's optics blinked. "Ah, you have identified data potentially conflicting with Rule Alpha. Your hypothesis, 'Based on these five instances, the problem might be larger,' uses <strong>inductive reasoning</strong>. You're observing specific events (the five signatures) and forming a broader, generalized conclusion or hypothesis. It's a <em>possible</em> explanation, suggested by the evidence, but it's not guaranteed to be correct, unlike a valid deductive conclusion derived from a true premise."</p>
             
@@ -44,7 +44,7 @@ const courseContent = {
     },
     storyPage4: {
         title: "The Case of the Glitched Glitch - Part 4",
-        image: "imgs/1_2.jpeg",
+        image: "imgs/1.5.jpeg",
         story: `
             <p>Elara frowned, considering the data. "Okay, so the inductive evidence points towards a growing instability linked to Chronium-X <em>before</em> the main device event. This contradicts Rule Alpha. But... what <em>caused</em> that initial instability? The device wasn't even fully active yet." She pulled up galactic incident reports. "Logi, look. The Zargonian Freight Guild had a mishap near Kepler just <em>before</em> the first fluctuation. They accidentally jettisoned experimental 'warp stabilizers'. Could <em>that</em> have destabilized the local spacetime, triggering the Chronium-X reactions?"</p>
             
@@ -58,7 +58,7 @@ const courseContent = {
     },
     storyPage5: {
         title: "The Case of the Glitched Glitch - Part 5",
-        image: "imgs/1_2.jpeg",
+        image: "imgs/1.6.jpeg",
         story: `
             <p>Logi continued, "Now, Cadet, based on all this analysis – the deductive certainty <em>if</em> Rule Alpha holds, the strong inductive evidence <em>against</em> Rule Alpha, and your abductive reasoning favouring the Zargonian trigger – what is your recommendation? Should we immediately send a containment team to Kepler-186f, or focus investigation efforts on the Zargonian incident?"</p>
             
