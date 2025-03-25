@@ -6,29 +6,69 @@ const courseContent = {
         text: "Welcome, Cadet! You've been selected for a special training mission at the Chronarium, the galaxy's foremost institute for temporal studies. Your first task? Master the art of logical reasoning. The fate of timelines might just depend on it!",
         buttonText: "Begin Training"
     },
-    storyPage: {
-        title: "The Case of the Glitched Glitch",
+    storyPage1: {
+        title: "The Case of the Glitched Glitch - Part 1",
         image: "imgs/1_2.jpeg",
         story: `
-            <p>Elara tapped her stylus against the shimmering Chronarium display. "Logi, this temporal anomaly… it's bizarre. The timeline is showing a 'glitch within a glitch' – a paradox layered on top of a paradox!"</p>
+            <p>Elara tapped her stylus against the shimmering Chronarium display, her brow furrowed. "Logi, look at this! The Kepler-186f timeline... it's unstable. Sensor logs show brief, contradictory flickers – building styles shifting mid-construction, historical figures momentarily appearing in anachronistic clothing, data logs swapping entries... It's like small paradoxes are cascading!"</p>
             
-            <p>Logi, a sleek, chrome-plated robot with glowing blue optics, whirred softly. "Indeed, Cadet Elara. Our sensors detected a disruption in the Kepler-186f colony timeline, Year 2347. Specifically, a malfunction in their experimental time-dilation device."</p>
+            <p>Logi, a sleek, chrome-plated robot with glowing blue optics, whirred softly. "Indeed, Cadet Elara. A 'Paradox Cascade,' as you term it. Initial analysis suggests a malfunction in their experimental time-dilation device, powered by the volatile element Chronium-X. If the source isn't identified and stabilized, the cumulative effect could decouple Kepler-186f from the primary timeline entirely. A significant risk."</p>
             
-            <p>Elara frowned. "But the reports are contradictory. One sensor log says *all* temporal distortions originate from Kepler-186f. And *if* all distortions originate there, then the secondary glitch on Proxima Centauri b *must* be a consequence. That seems… solid. Like, it *has* to be true."</p>
+            <p>Elara took a breath, pulling up the primary directive flashing urgently on her console. "Okay, Logi, let's apply the rules step-by-step. Standard Temporal Doctrine, Rule Alpha states: '<strong>Premise 1: All confirmed Class-3 distortions originating within the Kepler sector are traceable to the Kepler-186f experimental device.</strong>' " She then pointed to the data log showing the secondary event. "And this minor flicker on Proxima Centauri b? The logs confirm it <em>is</em> classified as a Class-3 distortion, and Proxima b is definitely within the Kepler sector. So, that gives us <strong>Premise 2: The Proxima flicker is a Class-3 distortion originating within the Kepler sector.</strong>"</p>
+        `,
+        buttonText: "Continue"
+    },
+    storyPage2: {
+        title: "The Case of the Glitched Glitch - Part 2",
+        image: "imgs/1_2.jpeg",
+        story: `
+            <p>She traced the logical connection on her screen with her finger. "Okay, so <em>if</em> Premise 1 is true (that <em>all</em> these distortions trace back to the device) <em>and</em> Premise 2 is true (that the Proxima flicker <em>is</em> one of these distortions)... then the conclusion logically <em>must</em> follow. Therefore," she concluded, tapping Proxima b on the display, "<strong>this Proxima flicker <em>must</em> be traceable back to the Kepler-186f device.</strong> It has to be an echo or consequence. That's the necessary outcome if Rule Alpha and our data about the flicker are both correct."</p>
             
-            <p>Logi tilted its head. "That, Cadet, is an example of <strong>deductive reasoning</strong>. You're starting with a general rule (all distortions originate from Kepler-186f) and applying it to a specific case (the Proxima Centauri b glitch). If the general rule is true, the conclusion *must* also be true."</p>
+            <p>Logi tilted its head, optics brightening. "Precisely, Cadet. You have just demonstrated <strong>deductive reasoning</strong> perfectly. You started with a general premise covering <em>all</em> members of a specific category (Premise 1). You identified that the Proxima flicker is a specific instance belonging to that category (Premise 2). Therefore, you reached a conclusion about that specific instance (Conclusion) that <em>must</em> be true <em>if</em> your starting premises are accurate. That certainty, derived from the structure of the argument, is the core strength of valid deduction."</p>
             
-            <p>Elara nodded. "Okay, I get that. But then there's this other report. It shows five separate instances of minor temporal fluctuations *preceding* the Kepler-186f event. The analyst wrote, 'Based on these five instances, we believe temporal instability is increasing across the sector.'"</p>
+            <p>"But wait," Elara zoomed in on a different sensor log, her eyes widening. "Logi, these five energy signatures... they <em>predate</em> the main Kepler event by several cycles! They're smaller, different, but the temporal resonance... it's uncannily similar. Rule Alpha says <em>all</em> distortions come from the device <em>after</em> it activated, but these came <em>before</em>! What if... based on these five specific instances... the problem isn't just the device suddenly malfunctioning, but a growing instability <em>leading up</em> to it?"</p>
+        `,
+        buttonText: "Continue"
+    },
+    storyPage3: {
+        title: "The Case of the Glitched Glitch - Part 3",
+        image: "imgs/1_2.jpeg",
+        story: `
+            <p>Logi's optics blinked. "Ah, you have identified data potentially conflicting with Rule Alpha. Your hypothesis, 'Based on these five instances, the problem might be larger,' uses <strong>inductive reasoning</strong>. You're observing specific events (the five signatures) and forming a broader, generalized conclusion or hypothesis. It's a <em>possible</em> explanation, suggested by the evidence, but it's not guaranteed to be correct, unlike a valid deductive conclusion derived from a true premise."</p>
             
-            <p>Logi's optics blinked. "That is <strong>inductive reasoning</strong>, Cadet. The analyst is drawing a general conclusion (instability is increasing) from specific observations (the five fluctuations). It's a *probable* conclusion, but not a *certain* one. There might be other explanations for those fluctuations, or they could be unrelated."</p>
+            <p>Just then, a new alert pinged. "High-priority analysis!" Elara exclaimed, tapping the notification. "A deep-scan probe just finished analyzing the <em>earliest</em> of those five preceding fluctuations... and found trace amounts of decayed Chronium-X residue! That strengthens my inductive hypothesis, doesn't it? It suggests a link back to the <em>type</em> of energy source used in the Kepler device, even before the main cascade event!"</p>
             
-            <p>Elara pointed to a new alert flashing on the screen. "Another report! It says a team investigated the Proxima Centauri b glitch and found traces of… Chronium-X residue? That's the substance that powers the Kepler-186f device!"</p>
+            <p>"Indeed," Logi confirmed. "Finding Chronium-X residue significantly increases the <em>probability</em> that your inductive conclusion is correct. Think of induction like building a case with evidence. Each consistent piece of evidence – like finding the residue, or noting the similar resonance patterns in all five pre-cascade events – adds weight to your hypothesis. If we found ten more pre-cascade events, all with Chronium-X traces, your hypothesis would become <em>even stronger</em>. However, induction <em>never</em> reaches the 100% certainty of a sound deductive argument. There's always a possibility, however small, that a future observation could contradict it, or another explanation exists. Inductive strength is about likelihood and probability, built upon the quality and quantity of observations."</p>
+        `,
+        buttonText: "Continue"
+    },
+    storyPage4: {
+        title: "The Case of the Glitched Glitch - Part 4",
+        image: "imgs/1_2.jpeg",
+        story: `
+            <p>Elara frowned, considering the data. "Okay, so the inductive evidence points towards a growing instability linked to Chronium-X <em>before</em> the main device event. This contradicts Rule Alpha. But... what <em>caused</em> that initial instability? The device wasn't even fully active yet." She pulled up galactic incident reports. "Logi, look. The Zargonian Freight Guild had a mishap near Kepler just <em>before</em> the first fluctuation. They accidentally jettisoned experimental 'warp stabilizers'. Could <em>that</em> have destabilized the local spacetime, triggering the Chronium-X reactions?"</p>
             
-            <p>"Interesting," Logi mused. "If further investigation confirms Chronium-X residue *at every* subsequent glitch location, we could strengthen the *inductive* conclusion that the Kepler-186f device is the source. We'd have more evidence, making the conclusion more likely, but still not 100% certain. There is a big difference between certainty, and likelyhood."</p>
+            <p>Logi processed this. "An interesting alternative hypothesis, Cadet. You now have two potential explanations for the early fluctuations and residue: 1) An unknown inherent instability in Chronium-X itself, building over time. 2) An external trigger, like the Zargonian mishap, interacting with the Chronium-X. Both explanations seem <em>possible</em> given the current evidence. How do you decide which is more likely?"</p>
             
-            <p>Elara grinned. "So, to solve this 'glitch within a glitch,' I need to use both deductive *and* inductive reasoning? Like a temporal detective?"</p>
+            <p>Elara thought aloud. "Well, the 'inherent instability' idea is simpler, it doesn't require an outside factor. But the Zargonian mishap lines up perfectly time-wise with the <em>start</em> of the fluctuations. That timing seems too coincidental to ignore. The Zargonian explanation seems... better, it accounts for <em>more</em> of the facts, especially the timing."</p>
             
-            <p>Logi's optics glowed brighter. "Precisely, Cadet. Your training begins now. Let's test your understanding..."</p>
+            <p>"What you are performing now," Logi stated, "is <strong>abductive reasoning</strong>, also known as inference to the best explanation. You're not deducing from a rule or inducing from repetition; you're comparing different potential explanations for the <em>same set of facts</em> and choosing the one that provides the most plausible, coherent, or simplest account. You've judged the Zargonian explanation as 'best' based on its ability to explain the timing."</p>
+        `,
+        buttonText: "Continue"
+    },
+    storyPage5: {
+        title: "The Case of the Glitched Glitch - Part 5",
+        image: "imgs/1_2.jpeg",
+        story: `
+            <p>Logi continued, "Now, Cadet, based on all this analysis – the deductive certainty <em>if</em> Rule Alpha holds, the strong inductive evidence <em>against</em> Rule Alpha, and your abductive reasoning favouring the Zargonian trigger – what is your recommendation? Should we immediately send a containment team to Kepler-186f, or focus investigation efforts on the Zargonian incident?"</p>
+            
+            <p>Elara weighed the options. "Okay... Sending a team <em>now</em> based just on Rule Alpha seems wrong, given the inductive evidence (Reason 1). Investigating the Zargonians aligns with the 'best explanation' from abduction (Reason 2). Plus, direct intervention at Kepler could be risky if we don't understand the root cause (Reason 3). However, ignoring Kepler completely is dangerous given the ongoing cascade (Reason 4). So... weighing these points... I recommend prioritizing the Zargonian investigation <em>while</em> setting up remote, non-invasive monitoring around Kepler."</p>
+            
+            <p>"An excellent synthesis," Logi commended. "Your final step, weighing various independent reasons – some supporting one action, some supporting another, some acting as constraints – to arrive at a judgment or recommendation, is an example of <strong>conductive reasoning</strong>. It's common in practical decision-making, where you balance different pros and cons that don't necessarily form a strict deductive or inductive chain."</p>
+            
+            <p>Elara grinned, feeling her understanding deepen. "Wow. So it's not just about 'true or false'. Deduction gives certainty from rules, induction builds probability from evidence, abduction finds the best explanation, and conduction weighs different factors for a decision. To really solve temporal problems – or <em>any</em> complex problem – I need to use all of them!"</p>
+            
+            <p>"Precisely, Cadet," Logi confirmed. "Your training progresses well. Let's test your grasp of these diverse reasoning methods..."</p>
         `,
         buttonText: "Take the Quiz"
     },
@@ -142,14 +182,82 @@ function renderLandingPage() {
             </div>
             <div class="text-content">${text}</div>
             <div class="btn-container">
-                <button class="btn" onclick="navigateTo('story')">${buttonText}</button>
+                <button class="btn" onclick="navigateTo('story1')">${buttonText}</button>
             </div>
         </div>
     `;
 }
 
-function renderStoryPage() {
-    const { title, image, story, buttonText } = courseContent.storyPage;
+function renderStoryPage1() {
+    const { title, image, story, buttonText } = courseContent.storyPage1;
+    
+    return `
+        <div class="page">
+            <h1 class="page-title">${title}</h1>
+            <div class="image-container">
+                <img src="${image}" alt="Chronarium story scene" class="page-image">
+            </div>
+            <div class="text-content">${story}</div>
+            <div class="btn-container">
+                <button class="btn" onclick="navigateTo('story2')">${buttonText}</button>
+            </div>
+        </div>
+    `;
+}
+
+function renderStoryPage2() {
+    const { title, image, story, buttonText } = courseContent.storyPage2;
+    
+    return `
+        <div class="page">
+            <h1 class="page-title">${title}</h1>
+            <div class="image-container">
+                <img src="${image}" alt="Chronarium story scene" class="page-image">
+            </div>
+            <div class="text-content">${story}</div>
+            <div class="btn-container">
+                <button class="btn" onclick="navigateTo('story3')">${buttonText}</button>
+            </div>
+        </div>
+    `;
+}
+
+function renderStoryPage3() {
+    const { title, image, story, buttonText } = courseContent.storyPage3;
+    
+    return `
+        <div class="page">
+            <h1 class="page-title">${title}</h1>
+            <div class="image-container">
+                <img src="${image}" alt="Chronarium story scene" class="page-image">
+            </div>
+            <div class="text-content">${story}</div>
+            <div class="btn-container">
+                <button class="btn" onclick="navigateTo('story4')">${buttonText}</button>
+            </div>
+        </div>
+    `;
+}
+
+function renderStoryPage4() {
+    const { title, image, story, buttonText } = courseContent.storyPage4;
+    
+    return `
+        <div class="page">
+            <h1 class="page-title">${title}</h1>
+            <div class="image-container">
+                <img src="${image}" alt="Chronarium story scene" class="page-image">
+            </div>
+            <div class="text-content">${story}</div>
+            <div class="btn-container">
+                <button class="btn" onclick="navigateTo('story5')">${buttonText}</button>
+            </div>
+        </div>
+    `;
+}
+
+function renderStoryPage5() {
+    const { title, image, story, buttonText } = courseContent.storyPage5;
     
     return `
         <div class="page">
@@ -205,7 +313,7 @@ function renderQuizPage() {
             feedbackHTML += `
                 <div class="btn-container">
                     <button class="btn" onclick="resetQuiz()">Try Again</button>
-                    <button class="btn" onclick="navigateTo('story')">Review Story</button>
+                    <button class="btn" onclick="navigateTo('story1')">Review Story</button>
                 </div>
             `;
         } else {
@@ -279,8 +387,20 @@ function renderApp() {
         case 'landing':
             content = renderLandingPage();
             break;
-        case 'story':
-            content = renderStoryPage();
+        case 'story1':
+            content = renderStoryPage1();
+            break;
+        case 'story2':
+            content = renderStoryPage2();
+            break;
+        case 'story3':
+            content = renderStoryPage3();
+            break;
+        case 'story4':
+            content = renderStoryPage4();
+            break;
+        case 'story5':
+            content = renderStoryPage5();
             break;
         case 'quiz':
             content = renderQuizPage();
