@@ -208,6 +208,12 @@ function renderQuizPage() {
                     <button class="btn" onclick="navigateTo('story')">Review Story</button>
                 </div>
             `;
+        } else {
+            feedbackHTML += `
+                <div class="btn-container">
+                    <button class="btn" onclick="window.location.href='module2.html'">Go to Module 2</button>
+                </div>
+            `;
         }
     }
     
