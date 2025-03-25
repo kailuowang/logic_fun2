@@ -2,13 +2,13 @@
 const courseContent = {
     landingPage: {
         title: "The Chronarium's Paradox: Validity, Soundness, and Shifty Arguments",
-        image: "imgs/2_1.jpeg",
+        image: "imgs/2.1.jpeg",
         text: "Cadet Elara, you've proven your grasp of basic reasoning! Now, we delve deeper into the structure of arguments. Learn to distinguish between *valid* arguments, *sound* arguments, and those sneaky traps called *fallacies*. The stability of the timeline depends on your sharp judgment!",
         buttonText: "Enter the Simulation"
     },
     storyPage1: {
         title: "The Trial of Xylar - Part 1",
-        image: "imgs/2_2.jpeg",
+        image: "imgs/2.2.jpeg",
         story: `
             <p>Elara and Logi entered the Chronarium's simulation chamber. A holographic courtroom materialized around them. "Today's lesson," Logi announced, "concerns the trial of Xylar, a smuggler accused of illegally transporting volatile Chronium-X."</p>
             
@@ -24,7 +24,7 @@ const courseContent = {
     },
     storyPage2: {
         title: "The Trial of Xylar - Part 2",
-        image: "imgs/2_2.jpeg",
+        image: "imgs/2.3.jpeg",
         story: `
             <p>"Excellent identification of the valid structure, known as Modus Tollens," Logi confirmed. "But validity isn't everything. Is the argument <em>sound</em>?"</p>
             
@@ -42,7 +42,7 @@ const courseContent = {
     },
     storyPage3: {
         title: "The Trial of Xylar - Part 3",
-        image: "imgs/2_2.jpeg",
+        image: "imgs/2.4.jpeg",
         story: `
             <p>Logi nodded. "Correct. That structure is <em>invalid</em>. It's a common fallacy called <strong>affirming the consequent</strong>. Now let's see how the defense responds."</p>
             
@@ -58,7 +58,7 @@ const courseContent = {
     },
     storyPage4: {
         title: "The Trial of Xylar - Part 4",
-        image: "imgs/2_2.jpeg",
+        image: "imgs/2.5.jpeg",
         story: `
             <p>The defense continued by making a claim: "There are only two possibilities in this sector. Either Xylar did it, or the notoriously clumsy Zargonian Freight Guild accidentally jettisoned the Chronium-X near his flight path. The Zargonians mess up <em>all the time</em>, it's far more likely they did it! Therefore, Xylar is innocent!"</p>
             
