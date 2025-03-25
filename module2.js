@@ -18,13 +18,23 @@ const courseContent = {
             
             <p>Elara thought for a moment. "Well, if the premises were true, the conclusion <em>would</em> follow. It <em>seems</em> valid… but something feels off."</p>
             
-            <p>Logi nodded. "It <em>is</em> deductively valid in its <em>structure</em>. But is it <em>sound</em>?"</p>
-            
-            <p>"For it to be sound," Elara said, "both premises would have to be <em>true</em>. But what if something <em>else</em> could cause that energy signature? Maybe Xylar's ship was framed!"</p>
-            
             <p>Logi resumed the simulation. Xylar's defense attorney, a quick-witted robot, spoke: "The prosecutor's argument, while seemingly logical, commits a fallacy! It's like saying, 'If it rains, the ground is wet. The ground is wet. Therefore, it rained.' But the ground could be wet for other reasons! This is called <strong>affirming the consequent</strong>, a classic logical error."</p>
             
-            <p>Elara snapped her fingers. "So, the argument's <em>structure</em> is okay, but the reasoning is flawed because the second premise doesn't guarantee the conclusion!"</p>
+            <p>Elara snapped her fingers. "So, the argument's <em>structure</em> is okay, but the reasoning is flawed because the second premise doesn't guarantee the conclusion!</p>
+            
+            <p>The argument presented is structured as follows:</p>
+            
+            <p>Premise 1: If Xylar transported Chronium-X, his ship would have a unique energy signature.<br>
+            Premise 2: We detected that unique energy signature on Xylar's ship.<br>
+            Conclusion: Therefore, Xylar transported Chronium-X.</p>
+            
+            <p>This logical form is known as "affirming the consequent", a classic invalid argument form. It has the structure:</p>
+            
+            <p>• If A then B<br>
+            • B<br>
+            • Therefore, A</p>
+            
+            <p>This is invalid because B (the consequent) can be true for reasons other than A. For instance, the energy signature could appear on the ship for other reasons."</p>
             
             <p>The defense attorney continued: "Furthermore, the prosecutor is a known enemy of my client! He hates Xylar! Therefore, everything he says is false!"</p>
             
