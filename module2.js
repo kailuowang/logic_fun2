@@ -24,7 +24,7 @@ const courseContent = {
     },
     storyPage2: {
         title: "The Trial of Xylar - Part 2",
-        image: "imgs/2.3.jpeg",
+        image: "imgs/2.4.jpeg",
         story: `
             <p>"Excellent identification of the valid structure, known as Modus Tollens," Logi confirmed. "But validity isn't everything. Is the argument <em>sound</em>?"</p>
             
@@ -42,7 +42,7 @@ const courseContent = {
     },
     storyPage3: {
         title: "The Trial of Xylar - Part 3",
-        image: "imgs/2.4.jpeg",
+        image: "imgs/2.3.jpeg",
         story: `
             <p>Logi nodded. "Correct. That structure is <em>invalid</em>. It's a common fallacy called <strong>affirming the consequent</strong>. Now let's see how the defense responds."</p>
             
@@ -58,7 +58,7 @@ const courseContent = {
     },
     storyPage4: {
         title: "The Trial of Xylar - Part 4",
-        image: "imgs/2.5.jpeg",
+        image: "imgs/2.8.jpeg",
         story: `
             <p>The defense continued by making a claim: "There are only two possibilities in this sector. Either Xylar did it, or the notoriously clumsy Zargonian Freight Guild accidentally jettisoned the Chronium-X near his flight path. The Zargonians mess up <em>all the time</em>, it's far more likely they did it! Therefore, Xylar is innocent!"</p>
             
@@ -348,6 +348,12 @@ function renderQuizPage() {
 // Navigation and interaction functions
 function navigateTo(page) {
     currentPage = page;
+    
+    // Update browser history to enable back button functionality
+    const url = new URL(window.location.href);
+    url.searchParams.set('page', page);
+    window.history.pushState({ page: page }, '', url);
+    
     renderApp();
 }
 
@@ -412,5 +418,28 @@ function renderApp() {
     appContainer.innerHTML = content;
 }
 
+// Handle browser back/forward navigation
+window.addEventListener('popstate', function(event) {
+    if (event.state && event.state.page) {
+        currentPage = event.state.page;
+        renderApp();
+    }
+});
+
 // Initialize the app
-document.addEventListener('DOMContentLoaded', renderApp);
+document.addEventListener('DOMContentLoaded', function() {
+    // Check if there's a page parameter in the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const pageParam = urlParams.get('page');
+    
+    if (pageParam) {
+        currentPage = pageParam;
+    }
+    
+    // Initialize browser history state
+    const url = new URL(window.location.href);
+    url.searchParams.set('page', currentPage);
+    window.history.replaceState({ page: currentPage }, '', url);
+    
+    renderApp();
+});
